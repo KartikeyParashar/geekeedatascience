@@ -1,0 +1,87 @@
+.h1 {
+  /* Layout Properties*/
+  top: 279px;
+  left: 261px;
+  width: 842px;
+  height: 164px;
+
+  /* UI Properties */
+  margin-top: 70px;
+  margin-left: 60px;
+  text-align: left;
+  font: normal normal medium 56px/85px Poppins;
+  letter-spacing: 0px;
+  color: #060141;
+  text-transform: capitalize;
+  opacity: 1;
+}
+
+.database {
+  margin-top: 300px;
+  left: 1173px;
+  width: 127px;
+  height: 127px;
+}
+
+.deep-learning {
+  margin-top: -250px;
+  left: 1271px;
+  width: 106px;
+  height: 106px;
+}
+
+.machine-learning {
+  top: 229px;
+  left: 1367px;
+  width: 458px;
+  height: 512px;
+}
+
+.machine-learning-2 {
+  margin-top: -960px;
+  margin-left: 620px;
+}
+
+.learning {
+  margin-left: -30px;
+  margin-top: 80px;
+}
+
+.learningBackColor {
+  background: #9dc6fb;
+  padding: 25px;
+  border-radius: 200px;
+  opacity: 0.67;
+}
+
+.backColor {
+  background: #ffe79c no-repeat padding-box;
+  border-radius: 500px 500px;
+}
+
+.backColorML2 {
+  background: #9dc6fb;
+  padding: 30px;
+  border-radius: 200px;
+  opacity: 0.67;
+}
+
+.buttonClass {
+  margin-left: 60px;
+  width: 364px;
+  height: 85px;
+
+  background: #486fbf 0% 0% no-repeat padding-box;
+  border-radius: 5px;
+  opacity: 1;
+}
+
+.socialNetworkClass {
+  margin-top: 100px;
+  height: 100px;
+  width: 110px;
+}
+
+.socialNetworkForm {
+  margin-left: 180px;
+}
