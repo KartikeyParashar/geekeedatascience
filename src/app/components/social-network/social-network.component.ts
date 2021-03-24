@@ -1,10 +1,10 @@
 import { Component, OnInit } from '@angular/core';
-import { SocialNetworkingModel } from '../shared/socialNetworking.model';
+import { SocialNetworkingModel } from 'src/shared/socialNetworking.model';
 
 @Component({
   selector: 'app-social-network',
   templateUrl: './social-network.component.html',
-  styleUrls: ['./social-network.component.css']
+  styleUrls: ['./social-network.component.scss']
 })
 export class SocialNetworkComponent{
   socialNetwork: SocialNetworkingModel[] = [

@@ -1,10 +1,10 @@
 import { Component, OnInit } from '@angular/core';
-import { FollowersModel } from '../shared/followers.model';
+import { FollowersModel } from 'src/shared/followers.model';
 
 @Component({
   selector: 'app-followers',
   templateUrl: './followers.component.html',
-  styleUrls: ['./followers.component.css']
+  styleUrls: ['./followers.component.scss']
 })
 export class FollowersComponent {
   famousPeoples: FollowersModel[] = [

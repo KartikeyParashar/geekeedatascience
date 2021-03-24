@@ -56,7 +56,7 @@
 
 .backColor {
   background: #ffe79c no-repeat padding-box;
-  border-radius: 500px 500px;
+  border-radius: 34% 66% 62% 38% / 55% 38% 62% 45%;
 }
 
 .backColorML2 {
@@ -76,12 +76,28 @@
   opacity: 1;
 }
 
-.socialNetworkClass {
-  margin-top: 100px;
-  height: 100px;
-  width: 110px;
+.flatClass {
+  margin-top: 60px;
+  margin-left: 100px;
+  margin-bottom: 40px;
+  width: 552px;
+  height: 594px;
 }
 
-.socialNetworkForm {
-  margin-left: 180px;
+.flatBackgroundColor {
+  background-size: -110px;
+  margin-top: 70px;
+  background-color: #ffe99c;
+  border-radius: 34% 66% 55% 45% / 71% 57% 43% 29%;
+  opacity: 1;
+  background-position: 180px;
+}
+
+.geekeeClass {
+  margin-top: 180px;
+}
+
+.geekeePara {
+  margin-top: -50px;
+  margin-left: 65px;
 }

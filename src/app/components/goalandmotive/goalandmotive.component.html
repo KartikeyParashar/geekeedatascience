@@ -1,0 +1,14 @@
+<div>
+    <p class="h1 text-center goalMotive" [ngStyle]="{'color': '#060141'}">Goal And Motive</p>
+    <div class="row">
+        <div *ngFor="let gm of goalAndMotives" class="col-sm-4">
+            <img src={{gm.imagePath}} alt={{gm.title}} class="imageCenter">
+        </div>
+    </div>
+    <div class="row mt-5">
+        <div *ngFor="let gm of goalAndMotives" class="col-sm-4">
+            <p class="h5 text-center">{{gm.title}}</p>
+            <p class="text-center text-muted maxWidth">{{gm.description}}</p>
+        </div>
+    </div>
+</div>

@@ -3,11 +3,13 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { NavbarComponent } from './navbar/navbar.component';
-import { HomeComponent } from './home/home.component';
-import { FollowersComponent } from './followers/followers.component';
+import { HomeComponent } from './components/home/home.component';
 import { FormsModule } from '@angular/forms';
-import { SocialNetworkComponent } from './social-network/social-network.component';
+import { FollowersComponent } from './components/followers/followers.component';
+import { SocialNetworkComponent } from './components/social-network/social-network.component';
+import { NavbarComponent } from './components/navbar/navbar.component';
+import { GoalandmotiveComponent } from './components/goalandmotive/goalandmotive.component';
+import { StorylineComponent } from './components/storyline/storyline.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +17,9 @@ import { SocialNetworkComponent } from './social-network/social-network.componen
     NavbarComponent,
     HomeComponent,
     FollowersComponent,
-    SocialNetworkComponent
+    SocialNetworkComponent,
+    GoalandmotiveComponent,
+    StorylineComponent
   ],
   imports: [
     BrowserModule,
